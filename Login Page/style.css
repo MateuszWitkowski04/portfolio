@@ -1,0 +1,162 @@
+body {
+    /* background pattern from https://www.toptal.com/designers/subtlepatterns/ */
+    background-image: url(img/circle-blues.png);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#container {
+    display: flex;
+    margin-top: 100px;
+    width: 720px;
+    /* border: 2px solid blue; */
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(204,204,204,0.1);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(204,204,204,0.1);
+    box-shadow: 0px 0px 10px 10px rgba(204,204,204,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#containerL {
+    background-color: rgb(0, 0, 89);
+    width: 320px;
+    height: 430px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.media {
+    color: white;
+    margin-top: 53px;
+    width: 248px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid white; */
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #4267B2;
+    width: 250px;
+    height: 40px;
+
+
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #1DA1F2;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+
+}
+
+.google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #DB4437;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+
+}
+
+.web {
+    padding-top: 35px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0 25px;
+}
+
+.headerL {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /* margin-top: 50px; */
+    margin: 0 36px;
+    margin-top: 40px;
+}
+
+#containerR {
+    background-color: aliceblue;
+    width: 300px;
+    height: 330px;
+    padding: 50px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    
+}
+
+.header {
+    color: blue;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], 
+input[type=password] {
+    width: 300px;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    outline:  none;
+    margin-bottom: 10px;
+}
+
+input[type=text]:focus, 
+input[type=password]:focus {
+    outline: 2px solid blue;
+    color: blue;
+}
+
+input[type=submit] {
+    width: 300px;
+    height: 51px;
+    background-color: blue;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px, 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+    opacity: 1;
+}
+
+.githubButton img {
+    margin-top: 30px;
+    width: 50px;
+}
